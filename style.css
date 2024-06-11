@@ -1,0 +1,235 @@
+main, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: rgb(0, 0, 0);
+}
+
+main {
+    margin-top: 150px;
+}
+.nav_principal{
+    color: white;
+    align-items: center;
+    display: flex;
+    height: 32px;
+    justify-content: space-between;
+    line-height: 32px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-inline-end: 2rem;
+    width: 100vw;
+    border-bottom: 1px solid #666666;
+}
+
+figure{
+    width: 50%;
+}
+
+.nav_links{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.nav_footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_links a, .nav_text a, .nav_footer a{
+    font-family: "Arial";
+    font-size: 0.75rem;
+    padding-inline-start: 2.5rem;
+    text-decoration: none;
+    color: white;
+}
+img {
+    padding-inline-start: 10px;
+}
+
+a img{
+    align-self: flex-start;
+    display: flex;
+    margin-inline-end: 2rem;
+    max-width: 6.5rem;
+    object-fit: contain;
+    width: 6.5rem;
+}
+
+.nav_secundario{
+    height: 64px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_redes{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.nav_redes img{
+    fill: white;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.nav_text{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin: 0; 
+}
+
+span{
+    color: red;
+}
+
+.nav_tercero{
+    background-color: white;
+    height: 64px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Tercero_text a{
+    color: black;
+    font-family: "Arial";
+    font-size: small;
+    font-weight: bolder;
+    padding-inline-start: 1.5rem;
+    text-decoration: none;
+}
+
+.Tercero_text{
+    padding-right: 1050px;
+}
+
+.sec_title{
+    background-color: #304ffe;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    background-color: #ebeef7;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.sec_title h1{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-inline-start: 5rem;
+    font-size: 54px;
+    margin: 0;
+    color: white;
+}
+
+.grupo {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex: 1 1 calc(33% - 40px);
+    box-sizing: border-box;
+}
+.grupo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #304ffe;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.contact-section, .form-section, .map-section {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+.contact-section h2, .form-section h2, .map-section h2 {
+    text-align: center;
+}
+.form-section form {
+    display: flex;
+    flex-direction: column;
+}
+.form-section label {
+    margin-top: 10px;
+}
+.form-section input, .form-section textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.form-section button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-section button:hover {
+    background-color: #0056b3;
+}
+iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 8px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}

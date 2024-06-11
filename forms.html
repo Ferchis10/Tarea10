@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFA - FORMS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/FIFA_fb.jpg" type="image/x-icon">    
+</head>
+<body>
+    <main>
+        <header>
+            <nav class="nav_principal">
+                <img  class="FIFA_Logo" src="img/FIFA_Logo.webp" alt="" width="55" height="auto">
+                <nav class="nav_links">
+                    <a href="index.html">INICIO</a>
+                    <a href="#">COMPRA ENTRADAS</a>
+                    <a href="#">FIFA STORE</a>
+                    <a href="#">INSIDE FIFA</a>
+                    <a href="#">FIFA+</a>
+                    <audio id="background-music" src="song/song_FIFA.mp3" loop></audio>
+                    <button onclick="document.getElementById('background-music').play()" style="background-color: black; color: white; margin-left: 10px; border: 1px solid white;">Play</button>
+                    <button onclick="document.getElementById('background-music').pause()" style="background-color: black; color: white; margin-left: 10px; border: 1px solid white">Pause</button>
+                </nav>
+            </nav>
+            <nav class="nav_secundario">
+                <a href="" class="QUALIFIERS_Logo"><img src="img/QUALIFIERS_Logo.jpg" alt="" height="64" width="100%"></a>
+                <nav class="nav_text">
+                    <a href="index.html">INICIO</a>
+                    <a href="#"><span>AFC</span></a>
+                    <a href="#">CAF</a>
+                    <a href="#">CONCACAF</a>
+                    <a href="#">CONMEBOL</a>
+                    <a href="#">COPA MUNDIAL DE LA FIFA COPA MUNDIAL DE LA FIFA 26™</a>
+                </nav>
+                <nav class="nav_redes">
+                    <img src="img/lupa.png" alt="" width="44" style="padding: 0;">
+                    <img src="img/red-mundial.png" alt="" width="44" style="padding: 0;">
+                    <img src="img/usuario.png" alt="" width="44" style="padding: 0;">
+                </nav>
+            </nav>
+            <nav class="nav_tercero">
+                <a href="" class="Logo_AFC"><img src="img/Logo_AFC_lbg.jpg" alt="" height="64" width="100%" style="padding-left: 20px;"></a>
+                <nav class="Tercero_text">
+                    <a href="#">RESUMEN</a>
+                    <a href="#">RESULTADOS Y CALENDARIO</a>
+                    <a href="#"><span>CLASIFICACIÓN</span></a>
+                    <a href="#">PROCESO DE CLASIFICACIÓN</a>
+                </nav>
+            </nav>
+        </header>
+
+        <aside>
+            <div class="container">
+                <div class="contact-section">
+                    <h2 style="font-family: Arial, Helvetica, sans-serif;
+                        color: red;">Información de Contacto</h2>
+                    <p><strong>Dirección:</strong> Federation Internationale de Football Association, <br> FIFA Strasse 20, <br> P.O Box 8044 <br> Zurich,<br> Suiza</p>
+                    <p><strong>Preguntas de los medios:</strong> Para cualquier consulta de un medio relativa al Departamento de Medios de la FIFA, acuda preferiblemente al Media Channel. </p>
+                    <p><strong>Contactate con:</strong> media@fifa.org</p>
+                </div>
+        
+                <div class="form-section">
+                    <h2 style="font-family: Arial, Helvetica, sans-serif;
+                        color: red;">Escríbenos</h2>
+                    <form action="#" method="POST">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="name">Apellido:</label>
+                        <input type="text" id="name" name="name" required>
+        
+                        <label for="phone">Celular*:</label>
+                        <input type="tel" id="phone" name="phone" required>
+        
+                        <label for="email">Correo Electrónico*:</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="ruc">RUC (Opcional):</label>
+                        <input type="text" id="ruc" name="ruc">
+                        
+                        <label for="name">Asunto o resumen de su consulta:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="La FIFA procesará sus datos personales con el fin de responder a sus preguntas y comentarios. Para obtener más información sobre cómo la FIFA protege sus datos, visite el portal de protección de datos de la FIFA."></textarea>
+        
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+        
+                <div class="map-section">
+                    <h2 style="font-family: Arial, Helvetica, sans-serif;
+                        color: red;">Mapa</h2>
+                     <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.841427592962!2d8.5416943159555!3d47.37688697916874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900b1d799d7a97%3A0xb8b5a25c0ef7c8ef!2sZ%C3%BArich%2C%20Suiza!5e0!3m2!1ses!2ses!4v1598066953151!5m2!1ses!2ses"
+                        allowfullscreen="" aria-hidden="false" tabindex="0">
+                 </iframe>
+                </div>
+            </div>
+        
+
+        </aside>
+        
+
+        <footer>
+            <nav class="nav_secundario">
+                <img  class="FIFA_Logo" src="img/FIFA_Logo.webp" alt="" width="65" height="auto">
+                <nav class="nav_footer">
+                    <a href="#" style="font-weight: bolder;">POLÍTICA DE PRIVACIDAD</a>
+                    <a href="#" style="font-weight: bolder;">TERMINO DE SERVICIO</a>
+                    <a href="#" style="font-weight: bolder;">ADMINISTRAR PREFERENCIAS DE COOKIES</a>
+                </nav>
+                <div class="col-xs col-md-5 ff-mt-16 d-md-flex justify-content-end footer_Copyright__H-yb+" style="color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif;">Copyright © 1994 - 2024 FIFA. Todos los derechos Reservados.</div>
+            </nav>
+        </footer>
+    
+    </main>
+</body>
+</html>
